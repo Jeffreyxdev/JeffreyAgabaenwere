@@ -26,9 +26,9 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Hotel landing page"
-              description=" A Personal project to jest my css skills"
+              description=" A Personal project to test my css skills"
               ghLink=""
-              demoLink="https://chatify-49.web.app/"
+              demoLink="/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Blog web app"
+              description="My personal blog page build with react.js, Tailwind Css and Firebase which takes content from the database and post on the frontend. this was a practice on my Firebase skill"
+              ghLink="https://github.com/Jeffreyxdev/blog-webapp"
+              demoLink="/"
             />
           </Col>
 

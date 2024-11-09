@@ -5,7 +5,7 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-
+DiFirebase,
   DiGit,
   DiBootstrap,
   DiCss3,
@@ -16,8 +16,8 @@ import {
 import {
  
   
-  SiSolidity,SiFigma,
-  SiPostgresql,
+  SiFigma,
+  
   SiHtml5,SiGithub,SiDocker
 } from "react-icons/si";
 
@@ -41,7 +41,7 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <DiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPhotoshop />
@@ -58,13 +58,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         < SiFigma/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons"  >
         <DiHtml5 />
       </Col>
     </Row>

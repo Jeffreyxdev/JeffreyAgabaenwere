@@ -8,11 +8,13 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Particle from "../Particle";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+      <Particle />
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -24,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> React, Javascript jsx,mysql and Vite. </b>
+                <b className="purple"> React, Javascript jsx, Firebase and Vite. </b>
               </i>
               <br />
               <br />
@@ -77,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="/"
+                  href="https://x.com/gabson0x"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

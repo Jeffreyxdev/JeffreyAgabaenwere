@@ -13,8 +13,7 @@ function AboutCard() {
             <br />
            
             <br />
-            I have completed Diploma Front-end Development at SkillAhead
-            Mesra.
+            I have completed Diploma of Software Development at SkillAhead.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

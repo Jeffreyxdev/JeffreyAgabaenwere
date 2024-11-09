@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(0, 0, 0, 0.877),
+    rgba(3, 3, 3, 0.904)
   );
 
   --image-gradient: linear-gradient(
@@ -11,10 +11,11 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #7e7e7e;
+  --imp-text-color: #0f6666;
 }
 *{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  font-family:  'Lucida Grande',sans-serif;
 }
 
 .purple {
@@ -79,7 +80,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #1f1f1fbd !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -90,6 +91,7 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  
 }
 
 .navbar-toggler {
@@ -100,7 +102,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #2c3372 !important;
+  background-color: #ffffff !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -147,7 +149,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #000000e1 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -217,6 +219,7 @@ button:focus {
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
+  color:  rgb(165, 77, 42);
 }
 
 @keyframes wave-animation {
@@ -260,7 +263,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+ background-image: var(--section-background-color)!important;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -324,6 +327,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+background-color: #000000d3;
 }
 
 .home-about-description {
@@ -331,6 +335,7 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+  
 }
 
 .home-about-body {
@@ -405,7 +410,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgba(17, 17, 17, 0.952);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -463,7 +468,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(76, 76, 77, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -473,7 +478,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(82, 54, 134, 0.561) !important;
 }
 
 .blog-card {
@@ -563,7 +568,7 @@ button:focus {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(56, 56, 56, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -609,7 +614,7 @@ button:focus {
 .resume-section {
   position: relative !important;
   padding-top: 110px !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 190px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
@@ -731,7 +736,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #2b2b2b5e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -739,8 +744,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #262fac86 !important;
-  border-color: #262fac86 !important;
+  background-color: #20202086 !important;
+  border-color: #02020286 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
