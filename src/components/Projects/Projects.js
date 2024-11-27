@@ -2,14 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Figma from "../../Assets/Projects/FigmaLand.png"
+import sch from "../../Assets/Projects/sch.png"
 
+import sub from "../../Assets/Projects/Sub app.png"
 function Projects() {
+  
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -23,67 +21,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Figma}
               isBlog={false}
-              title="Hotel landing page"
-              description=" A Personal project to test my css skills"
-              ghLink=""
-              demoLink="/"
+              title="Figma Land"
+              description="A project template with authentication and js Logics "
+              ghLink="https://github.com/Jeffreyxdev/FigmaLand-demo"
+              demoLink="https://figma-land-demo.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              
               isBlog={false}
               title="Blog web app"
               description="My personal blog page build with react.js, Tailwind Css and Firebase which takes content from the database and post on the frontend. this was a practice on my Firebase skill"
               ghLink="https://github.com/Jeffreyxdev/blog-webapp"
-              demoLink="/"
+              //demoLink="/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={school}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="School site"
+              description="A project with firebase with a fectch and get form fully functional"
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={sub}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Sub web app"
+              description="Used firebase, react and tailwind css to build  a demo hosting site for hosting websites  "
+              ghLink="https://github.com/Jeffreyxdev/Subscription-webapp/"
+              demoLink="https://subscription-eta-six.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* {<Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={}
               isBlog={false}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/Jeffreyxdev/FigmaLand-demo"
+              demoLink="https://fiverr-clone-tau-sage.vercel.app/"
             />
-          </Col>
+          </Col> } */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={sch}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Hotel site land"
+              description="hotel landing page for a hotel in nigeria
+              "
+              ghLink="https://github.com/Jeffreyxdev/hotel-landing.page"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
