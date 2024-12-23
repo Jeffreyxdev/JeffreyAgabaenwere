@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Figma from "../../Assets/Projects/FigmaLand.png"
 import sch from "../../Assets/Projects/sch.png"
 import dsk from "../../Assets/Projects/desk.png"
+import crp from "../../Assets/Projects/crp.png"
 
 import sub from "../../Assets/Projects/Sub app.png"
 function Projects() {
@@ -42,16 +43,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={school}
+              imgPath={crp}
               isBlog={false}
               title="School site"
-              description="A project with firebase with a fectch and get form fully functional"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="A Crypto portfoilo project"
+              ghLink="https://github.com/jeffreyxdev/web3"
+              demoLink="https://coinx-snowy.vercel.app/"              
             />
-          </Col> */}
+          </Col> 
 
           <Col md={4} className="project-card">
             <ProjectCard
