@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Figma from "../../Assets/Projects/FigmaLand.png"
 import sch from "../../Assets/Projects/sch.png"
+import dsk from "../../Assets/Projects/desk.png"
 
 import sub from "../../Assets/Projects/Sub app.png"
 function Projects() {
@@ -63,16 +64,16 @@ function Projects() {
             />
           </Col>
 
-          {/* {<Col md={4} className="project-card">
+         {<Col md={4} className="project-card">
             <ProjectCard
-              imgPath={}
+              imgPath={dsk}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/Jeffreyxdev/FigmaLand-demo"
-              demoLink="https://fiverr-clone-tau-sage.vercel.app/"
+              title="Desight foundation"
+              description="A medical eye care organization based on empowering the community through health/ eye care"
+              
+              demoLink="https://desightfoundation.com.ng"
             />
-          </Col> } */}
+          </Col> } 
 
           <Col md={4} className="project-card">
             <ProjectCard
