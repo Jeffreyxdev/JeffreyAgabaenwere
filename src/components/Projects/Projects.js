@@ -47,7 +47,7 @@ function Projects() {
             <ProjectCard
               imgPath={crp}
               isBlog={false}
-              title="School site"
+              title="Crypto Portfoilo"
               description="A Crypto portfoilo project"
               ghLink="https://github.com/jeffreyxdev/web3"
               demoLink="https://coinx-snowy.vercel.app/"              

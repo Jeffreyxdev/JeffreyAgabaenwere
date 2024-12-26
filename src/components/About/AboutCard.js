@@ -6,14 +6,15 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="font mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Agabaenwere Jeffrey </span>
             from <span className="purple"> Port Harcourt, Nigeria.</span>
             <br />
            
             <br />
-            I have completed Diploma of Software Development at SkillAhead.
+            I am a Software Engineer,A CEO, A trader, A Designer Proficient in many skills,I have completed Diploma of Software Development at SkillAhead.
+            I'm building my dreams and maybe yours too send a dm.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -27,6 +28,12 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Designing
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Content Creating
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Learning new skills
             </li>
           </ul>
 

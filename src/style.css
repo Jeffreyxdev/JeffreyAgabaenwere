@@ -93,7 +93,37 @@ button:focus {
   font-size: 1.2rem !important;
   
 }
+.dash{
+  border: solid;
+  border-radius: 20px;
+  border-color: #0f6666;
+  width: 20vw ;
+  margin-left: 4vw;
+}
+.wrap{
+  box-shadow: #1c1653;
+  border-radius: 30px;
 
+}
+.wor{
+  font-size: 20px;
+  margin-left: 70vw;
+  margin-top: 10vh;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 150px;
+}
+
+.write{
+  color: #0f6666;
+  text-decoration: none;
+  
+}
+.font{
+  font-size: larger;
+  font-weight: 500;
+}
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
@@ -153,6 +183,13 @@ button:focus {
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
+  }
+  .wor{
+    margin-left: 40vh;
+  }
+  .dash{
+    width: 70vw;
+    margin-left: 9vw;
   }
 }
 .navbar-brand {
@@ -431,6 +468,10 @@ background-color: #000000d3;
 
   .footer-body {
     text-align: center !important;
+  }
+  .home-about-description{
+    font-size: smaller;
+    
   }
 }
 
